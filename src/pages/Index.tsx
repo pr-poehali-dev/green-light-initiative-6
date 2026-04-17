@@ -237,6 +237,76 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Gallery Section */}
+      <section className="relative z-10 py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Галерея</h2>
+            <p className="text-xl text-white/80 max-w-2xl mx-auto text-pretty">
+              Достопримечательности и природа города Любань.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 group">
+              <div className="relative h-72 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/267bab5e-ce7e-4acb-9946-1cc14c939be7/files/0599ea00-21bc-4c88-9dec-d526aaac741f.jpg"
+                  alt="Церковь Святой Троицы"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-xl font-semibold">Церковь Святой Троицы</h3>
+                  <p className="text-white/70 text-sm">XIX век</p>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 group">
+              <div className="relative h-72 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/267bab5e-ce7e-4acb-9946-1cc14c939be7/files/89dc64ce-665e-4cd4-9d8b-21685be1bb0c.jpg"
+                  alt="Мемориал Великой Отечественной войны"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-xl font-semibold">Мемориал ВОВ</h3>
+                  <p className="text-white/70 text-sm">Любанская наступательная операция 1942–43</p>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 group">
+              <div className="relative h-72 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/267bab5e-ce7e-4acb-9946-1cc14c939be7/files/87542269-2f78-4e30-bac9-15b96ceb0e97.jpg"
+                  alt="Железнодорожный вокзал"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-xl font-semibold">Железнодорожный вокзал</h3>
+                  <p className="text-white/70 text-sm">Памятник архитектуры XIX века</p>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 group">
+              <div className="relative h-72 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/267bab5e-ce7e-4acb-9946-1cc14c939be7/files/a2671b0e-3714-454e-bcb9-dbe849b82353.jpg"
+                  alt="Река Тигода"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-xl font-semibold">Река Тигода</h3>
+                  <p className="text-white/70 text-sm">Природа Ленинградской области</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
